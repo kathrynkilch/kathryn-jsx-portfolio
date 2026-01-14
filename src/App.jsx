@@ -191,24 +191,34 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Financial Portfolio Optimization */}
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group">
-              <div className="aspect-video overflow-hidden">
-                <img 
-                  src="/images/project-finance.png"
-                  alt="Financial Portfolio Optimization"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group md:col-span-2">
+              <div className="grid grid-cols-1 gap-0">
+                <div className="overflow-hidden aspect-video">
+                  <img 
+                    src="/images/project-finance.png"
+                    alt="Financial Portfolio Optimization - Optimizer"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="overflow-hidden aspect-video">
+                  <img 
+                    src="/images/project-finance-news.png"
+                    alt="Financial Portfolio Optimization - News Evaluation"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">Financial Portfolio Optimization</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  A responsive web app that helps users find the best mix of mutual funds using historical data to estimate returns and risks. Features intuitive data visualizations for portfolio analysis.
+                  A responsive web app that helps users find the best mix of mutual funds using historical data to estimate returns and risks. Features intuitive data visualizations for portfolio analysis, sentiment analysis of market news, and AI-powered insights to guide investment decisions.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">React</span>
                   <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">JavaScript</span>
                   <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">UI/UX Design</span>
                   <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">Data Visualization</span>
+                  <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs">Natural Language Processing</span>
                 </div>
                 <p className="text-xs text-gray-500">August 2025 – Present</p>
               </div>
