@@ -3,6 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, MessageSquare } from 'lucide-react';
 
 export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -85,7 +86,7 @@ export default function Portfolio() {
                 A Digital Designer & Developer
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Media Arts & Design student at James Madison University specializing in interactive design
+                Media Arts & Design student at James Madison University specializing in interactive design, with expertise in AI-assisted creative workflows, digital marketing, and user-centered web development.
               </p>
               <button 
                 onClick={handleContactClick}
@@ -126,10 +127,10 @@ export default function Portfolio() {
               </div>
               <h3 className="text-2xl font-bold mb-4">UI/UX Design</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                I create intuitive, user-centered digital experiences through comprehensive research, wireframing, prototyping, and usability testing. My design process emphasizes accessibility, functionality, and visual appeal.
+                I create intuitive, user-centered digital experiences through comprehensive research, wireframing, prototyping, and usability testing. My design process emphasizes accessibility, functionality, and visual appeal, enhanced by AI tools for rapid ideation, iteration, and user experience optimization.
               </p>
               <p className="text-sm text-gray-500">
-                Tools: Figma, Adobe XD, Sketch, Adobe Creative Suite, user research methodologies, A/B testing
+                Tools: Figma, Adobe XD, Sketch, Adobe Creative Suite, user research methodologies, A/B testing, AI-assisted design workflows
               </p>
             </div>
 
@@ -156,10 +157,10 @@ export default function Portfolio() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Digital Marketing</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Currently at Cygnus Education Inc., I design and produce digital ad campaigns targeting prospective college students. I create multimedia content across platforms, focusing on audience targeting and brand consistency.
+                Currently at Cygnus Education Inc., I design and produce digital ad campaigns targeting prospective college students. I create multimedia content across platforms, focusing on audience targeting and brand consistency. Integrating AI tools for content ideation, copy generation, and campaign optimization to accelerate creative workflows.
               </p>
               <p className="text-sm text-gray-500">
-                Experience: Ad campaign design, content strategy, audience targeting, social media, video scripts, brand consistency
+                Experience: Ad campaign design, content strategy, audience targeting, social media, video scripts, brand consistency, AI-assisted marketing research and content development
               </p>
             </div>
 
@@ -171,10 +172,10 @@ export default function Portfolio() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Full-Stack Projects</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                I collaborate with engineering partners to build complete web applications, handling everything from UX research and interface design to frontend implementation and user testing.
+                I collaborate with engineering partners to build complete web applications, handling everything from UX research and interface design to frontend implementation and user testing. Leveraging AI tools for rapid prototyping, content ideation, and workflow optimization to accelerate development cycles.
               </p>
               <p className="text-sm text-gray-500">
-                Skills: Cross-functional collaboration, agile workflows, user research, prototyping, frontend implementation, quality assurance
+                Skills: Cross-functional collaboration, agile workflows, user research, prototyping, frontend implementation, quality assurance, AI-assisted design and development
               </p>
             </div>
           </div>
@@ -190,22 +191,59 @@ export default function Portfolio() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Financial Portfolio Optimization */}
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group md:col-span-2">
-              <div className="grid grid-cols-1 gap-0">
-                <div className="overflow-hidden aspect-video">
+            {/* ProcessTrace AI */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group">
+              <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-50 flex items-center justify-center cursor-pointer" onClick={() => setSelectedImage('/images/ProcessTrace 1.png')}>
+                <div className="text-center">
                   <img 
-                    src="/images/project-finance.png"
-                    alt="Financial Portfolio Optimization - Optimizer"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    src="/images/ProcessTrace 1.png"
+                    alt="ProcessTrace AI"
+                    className="w-48 h-32 object-cover rounded-lg mx-auto mb-4 hover:opacity-80 transition-opacity border border-blue-200"
+                  />
+                  <p className="text-blue-700 font-medium">AI Investigation Platform</p>
+                  <p className="text-xs text-blue-600 mt-1">Click to view project</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">ProcessTrace AI</h3>
+                <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                  AI-powered pharmaceutical investigation platform for GMP deviation analysis. Led marketing and brand development, creating technical content that explains how AI accelerates manufacturing investigations through process ontology and reasoning layers.
+                </p>
+                <div className="grid grid-cols-2 gap-3 mb-4">
+                  <img 
+                    src="/images/PT1.png"
+                    alt="Platform Overview"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/PT1.png')}
+                  />
+                  <img 
+                    src="/images/PT2.png"
+                    alt="Technical Architecture"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/PT2.png')}
                   />
                 </div>
-                <div className="overflow-hidden aspect-video">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">AI Product Positioning</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">B2B Content Strategy</span>
+                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">Data Visualization</span>
+                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">Technical Marketing</span>
+                </div>
+                <p className="text-xs text-gray-500">January 2026 – Present</p>
+              </div>
+            </div>
+
+            {/* Financial Portfolio Optimization */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group">
+              <div className="aspect-video bg-gradient-to-br from-green-50 to-emerald-50 flex items-center justify-center cursor-pointer" onClick={() => setSelectedImage('/images/project-finance.png')}>
+                <div className="text-center">
                   <img 
-                    src="/images/project-finance-news.png"
-                    alt="Financial Portfolio Optimization - News Evaluation"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    src="/images/project-finance.png"
+                    alt="Financial Portfolio Optimization"
+                    className="w-48 h-32 object-cover rounded-lg mx-auto mb-4 hover:opacity-80 transition-opacity border border-green-200"
                   />
+                  <p className="text-green-700 font-medium">Portfolio Analytics</p>
+                  <p className="text-xs text-green-600 mt-1">Click to view project</p>
                 </div>
               </div>
               <div className="p-6">
@@ -213,6 +251,20 @@ export default function Portfolio() {
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                   A responsive web app that helps users find the best mix of mutual funds using historical data to estimate returns and risks. Features intuitive data visualizations for portfolio analysis, sentiment analysis of market news, and AI-powered insights to guide investment decisions.
                 </p>
+                <div className="grid grid-cols-2 gap-3 mb-4">
+                  <img 
+                    src="/images/AH1.png"
+                    alt="Portfolio Optimizer"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/AH1.png')}
+                  />
+                  <img 
+                    src="/images/AH2.png"
+                    alt="News Evaluation"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/AH2.png')}
+                  />
+                </div>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">React</span>
                   <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">JavaScript</span>
@@ -346,6 +398,23 @@ export default function Portfolio() {
           <p>Copyright © 2025 Kathryn Kilchenstein. All Rights Reserved.</p>
         </div>
       </footer>
+
+      {/* Image Modal */}
+      {selectedImage && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onClick={() => setSelectedImage(null)}>
+          <div className="relative max-w-4xl max-h-full p-4">
+            <img src={selectedImage} alt="Full size" className="max-w-full max-h-full object-contain rounded-lg" />
+            <button 
+              className="absolute top-2 right-2 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-opacity"
+              onClick={() => setSelectedImage(null)}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
