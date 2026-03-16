@@ -83,7 +83,7 @@ export default function Portfolio() {
                 I'm <span className="text-teal-600">Kathryn Kilchenstein,</span>
               </h1>
               <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-gray-800">
-                Digital Marketing & Content Strategy
+                Digital Marketing & Content Strategist
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Media Arts & Design student at James Madison University with experience in digital marketing, campaign development, and brand storytelling. I create content, marketing visuals, and product narratives that help companies communicate complex ideas clearly. My work combines marketing strategy, visual communication, and AI-assisted creative workflows.
@@ -220,8 +220,8 @@ export default function Portfolio() {
       <section id="portfolio" className="py-24 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">My Portfolio</h2>
-            <p className="text-lg text-gray-600">The following projects highlight my work in marketing, product storytelling, and digital media.</p>
+            <h2 className="text-5xl font-bold mb-4">Marketing & Product Work</h2>
+            <p className="text-lg text-gray-600">The following projects showcase my work in marketing, product storytelling, and digital media.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -241,7 +241,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">ProcessTrace AI</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, creating content and visual storytelling that explain how AI can accelerate deviation investigations and operational decision-making in GMP environments.
+                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, developing messaging and visual storytelling that explain how AI can help QA and manufacturing teams investigate deviations faster. I created educational content, LinkedIn posts, and technical visuals to translate complex AI workflows into clear value for biotech audiences.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <img 
@@ -283,7 +283,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">Financial Portfolio Optimization</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  Financial analytics platform designed to help users understand portfolio performance through clear data visualization and AI-powered insights. My focus was on communicating complex financial concepts in a way that is intuitive and engaging for users.
+                  Data-driven web platform that helps users understand portfolio performance and investment risk. I collaborated on the project by designing the user-facing data visualizations and messaging that communicate complex financial insights in a clear, accessible way. The goal was to make advanced financial analytics easier for everyday users to understand.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <img 
@@ -322,7 +322,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">VibeCode Journal</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  AI-assisted journaling and mood-tracking web app featuring daily reflections, timeline view, and emotional trend visualizations. Built with Firebase for secure authentication and data storage.
+                  AI-assisted journaling platform designed to help users track mood patterns and reflect on emotional trends. I worked on designing the interface and structuring how user insights are communicated through visualizations and timelines, focusing on making personal data easy to interpret and meaningful for users.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">React</span>
@@ -346,7 +346,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">FridgeBuddy App</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  Consumer-focused food inventory app concept designed to reduce food waste through smart tracking and recipe recommendations. The project focused on communicating product value clearly while designing a simple and engaging user experience.
+                  Mobile app concept designed to help households track food inventory and reduce waste. I focused on designing the product experience and communicating the app’s value through clear interfaces and visual content, helping users understand what food they have and when it should be used.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Figma</span>
