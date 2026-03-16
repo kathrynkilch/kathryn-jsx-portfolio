@@ -241,7 +241,7 @@ export default function Portfolio() {
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                   AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, creating content and visuals that explain how the system works. The goal is to help biotech teams understand how AI can accelerate deviation investigations.
                 </p>
-                <div className="grid grid-cols-2 gap-3 mb-4">
+                <div className="grid grid-cols-3 gap-3 mb-4">
                   <img 
                     src="/images/PT1.png"
                     alt="Platform Overview"
@@ -253,6 +253,12 @@ export default function Portfolio() {
                     alt="Technical Architecture"
                     className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
                     onClick={() => setSelectedImage('/images/PT2.png')}
+                  />
+                  <img 
+                    src="/images/PT3.png"
+                    alt="AI Workflow"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/PT3.png')}
                   />
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -281,7 +287,7 @@ export default function Portfolio() {
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                   Data-driven web platform that helps users understand portfolio performance and investment risk. I collaborated on the project by designing the user-facing data visualizations and messaging that communicate complex financial insights in a clear, accessible way. The goal was to make advanced financial analytics easier for everyday users to understand.
                 </p>
-                <div className="grid grid-cols-2 gap-3 mb-4">
+                <div className="grid grid-cols-3 gap-3 mb-4">
                   <img 
                     src="/images/AH1.png"
                     alt="Portfolio Optimizer"
@@ -293,6 +299,12 @@ export default function Portfolio() {
                     alt="News Evaluation"
                     className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
                     onClick={() => setSelectedImage('/images/AH2.png')}
+                  />
+                  <img 
+                    src="/images/AH 3.png"
+                    alt="Data Visualization"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/AH 3.png')}
                   />
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
