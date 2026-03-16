@@ -86,7 +86,7 @@ export default function Portfolio() {
                 Digital Marketing & Content Strategist
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Media Arts & Design student at James Madison University with experience in digital marketing, campaign development, and brand storytelling. I create content, marketing visuals, and product narratives that help companies communicate complex ideas clearly. My work combines marketing strategy, visual communication, and AI-assisted creative workflows.
+                Media Arts & Design student at James Madison University focused on digital marketing, campaign development, and brand storytelling. I create content, marketing visuals, and product narratives that help companies communicate complex ideas clearly. My work combines marketing strategy, visual communication, and AI-assisted creative workflows.
               </p>
               <button 
                 onClick={handleContactClick}
@@ -153,7 +153,7 @@ export default function Portfolio() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Digital Marketing</h3>
+              <h3 className="text-2xl font-bold mb-4">Marketing Campaign Experience</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 At Cygnus Education Inc., I support digital marketing campaigns targeting prospective college students. I develop multimedia marketing content across social, digital advertising, and web platforms while ensuring brand consistency and audience engagement. I also leverage AI tools for campaign ideation, copy development, and marketing research to accelerate creative workflows.
               </p>
@@ -170,7 +170,7 @@ export default function Portfolio() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Product & Startup Projects</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                I collaborate on product-focused projects where I contribute marketing messaging, user-focused communication, and visual storytelling. My work focuses on helping users understand complex digital products through clear interfaces, content, and data visualization.
+                I collaborate on product-focused projects where I develop marketing messaging, user-focused communication, and visual storytelling. My work focuses on helping users understand complex digital products through clear interfaces, content, and data visualization.
               </p>
               <p className="text-sm text-gray-500">
                 Skills: Product messaging, user communication, visual storytelling, data visualization, marketing-focused UX, cross-functional collaboration
@@ -198,6 +198,8 @@ export default function Portfolio() {
                 <li>Campaign Development</li>
                 <li>Brand Messaging</li>
                 <li>Social Media Marketing</li>
+                <li>Product Marketing</li>
+                <li>Technical Marketing</li>
                 <li>Visual Storytelling</li>
                 <li>B2B Marketing</li>
               </ul>
@@ -220,8 +222,8 @@ export default function Portfolio() {
       <section id="portfolio" className="py-24 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-4">Marketing & Product Work</h2>
-            <p className="text-lg text-gray-600">The following projects showcase my work in marketing, product storytelling, and digital media.</p>
+            <h2 className="text-5xl font-bold mb-4">Selected Marketing & Product Projects</h2>
+            <p className="text-lg text-gray-600">Projects focused on product storytelling, digital marketing, and communicating complex ideas through visual and written content.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -239,7 +241,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">ProcessTrace AI</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, creating content and visuals that explain how the system works. The goal is to help biotech teams understand how AI can accelerate deviation investigations.
+                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, creating content and visuals that communicate the platform's value and explain how AI can accelerate deviation investigations. The goal is to help biotech teams understand how AI can accelerate deviation investigations.
                 </p>
                 <div className="grid grid-cols-3 gap-3 mb-4">
                   <img 
@@ -308,11 +310,10 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">React</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">JavaScript</span>
-                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">UI/UX Design</span>
-                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">Data Visualization</span>
-                  <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs">Natural Language Processing</span>
+                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Product Communication</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Data Visualization</span>
+                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">User Insight Design</span>
+                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">Financial Product Storytelling</span>
                 </div>
                 <p className="text-xs text-gray-500">August 2025 – Present</p>
               </div>
@@ -333,10 +334,10 @@ export default function Portfolio() {
                   AI-assisted journaling platform designed to help users track mood patterns and reflect on emotional trends. I worked on designing the interface and structuring how user insights are communicated through visualizations and timelines, focusing on making personal data easy to interpret and meaningful for users.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">React</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Tailwind CSS</span>
-                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">Firebase</span>
-                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">AI Integration</span>
+                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">User Insight Design</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Data Visualization</span>
+                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">AI Product Experience</span>
+                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">User Behavior Tracking</span>
                 </div>
                 <p className="text-xs text-gray-500">Recent Project</p>
               </div>
@@ -357,10 +358,10 @@ export default function Portfolio() {
                   Mobile app concept designed to help households track food inventory and reduce waste. I focused on designing the product experience and communicating the app’s value through clear interfaces and visual content, helping users understand what food they have and when it should be used.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Figma</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">HTML/CSS</span>
-                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">JavaScript</span>
-                  <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs">UI/UX Design</span>
+                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Product Messaging</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Consumer App Design</span>
+                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">User Experience Strategy</span>
+                  <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs">Visual Communication</span>
                 </div>
                 <p className="text-xs text-gray-500">January 2024 – Present</p>
               </div>
