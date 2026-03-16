@@ -229,19 +229,17 @@ export default function Portfolio() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group">
               <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-50 flex items-center justify-center cursor-pointer" onClick={() => setSelectedImage('/images/ProcessTrace 1.png')}>
                 <div className="text-center">
-                  <img 
+                  <img
                     src="/images/ProcessTrace 1.png"
                     alt="ProcessTrace AI"
-                    className="w-48 h-32 object-cover rounded-lg mx-auto mb-4 hover:opacity-80 transition-opacity border border-blue-200"
+                    className="w-48 h-32 object-cover rounded-lg mx-auto hover:opacity-80 transition-opacity border border-blue-200"
                   />
-                  <p className="text-blue-700 font-medium">AI Investigation Platform</p>
-                  <p className="text-xs text-blue-600 mt-1">Click to view project</p>
                 </div>
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">ProcessTrace AI</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, developing messaging and visual storytelling that explain how AI can help QA and manufacturing teams investigate deviations faster. I created educational content, LinkedIn posts, and technical visuals to translate complex AI workflows into clear value for biotech audiences.
+                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, creating content and visuals that explain how the system works. The goal is to help biotech teams understand how AI can accelerate deviation investigations.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <img 
@@ -271,13 +269,11 @@ export default function Portfolio() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group">
               <div className="aspect-video bg-gradient-to-br from-green-50 to-emerald-50 flex items-center justify-center cursor-pointer" onClick={() => setSelectedImage('/images/project-finance.png')}>
                 <div className="text-center">
-                  <img 
+                  <img
                     src="/images/project-finance.png"
                     alt="Financial Portfolio Optimization"
-                    className="w-48 h-32 object-cover rounded-lg mx-auto mb-4 hover:opacity-80 transition-opacity border border-green-200"
+                    className="w-48 h-32 object-cover rounded-lg mx-auto hover:opacity-80 transition-opacity border border-green-200"
                   />
-                  <p className="text-green-700 font-medium">Portfolio Analytics</p>
-                  <p className="text-xs text-green-600 mt-1">Click to view project</p>
                 </div>
               </div>
               <div className="p-6">
