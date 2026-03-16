@@ -83,10 +83,10 @@ export default function Portfolio() {
                 I'm <span className="text-teal-600">Kathryn Kilchenstein,</span>
               </h1>
               <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-gray-800">
-                A Digital Designer & Developer
+                Digital Marketing & Content Strategy
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Media Arts & Design student at James Madison University specializing in interactive design, with expertise in AI-assisted creative workflows, digital marketing, and user-centered web development.
+                Media Arts & Design student at James Madison University with experience in digital marketing, campaign development, and brand storytelling. I create content, marketing visuals, and product narratives that help companies communicate complex ideas clearly. My work combines marketing strategy, visual communication, and AI-assisted creative workflows.
               </p>
               <button 
                 onClick={handleContactClick}
@@ -114,10 +114,8 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">What I Do</h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              I am a digital designer with expertise in building user-centered experiences, creating engaging multimedia content, and leveraging design thinking for innovative solutions. My work spans from developing intuitive web applications to crafting strategic digital campaigns that drive results.
-            </p>
-          </div>
-
+                I focus on digital marketing, content strategy, and visual storytelling. My work spans from developing marketing campaigns and multimedia content to helping startups communicate complex products through clear messaging, branding, and technical content.              </p>
+            </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="bg-stone-50 rounded-2xl p-8 border border-stone-200 hover:border-teal-600 transition-all">
               <div className="w-16 h-16 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
@@ -125,12 +123,12 @@ export default function Portfolio() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">UI/UX Design</h3>
+              <h3 className="text-2xl font-bold mb-4">Digital Marketing</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                I create intuitive, user-centered digital experiences through comprehensive research, wireframing, prototyping, and usability testing. My design process emphasizes accessibility, functionality, and visual appeal, enhanced by AI tools for rapid ideation, iteration, and user experience optimization.
+                I create marketing campaigns, social media content, and multimedia assets designed to communicate brand messaging clearly and engage target audiences. My work includes ad campaign development, audience targeting, content strategy, and AI-assisted marketing workflows.
               </p>
               <p className="text-sm text-gray-500">
-                Tools: Figma, Adobe XD, Sketch, Adobe Creative Suite, user research methodologies, A/B testing, AI-assisted design workflows
+                Campaign development, content strategy, audience targeting, social media marketing, video scripts, brand messaging
               </p>
             </div>
 
@@ -140,12 +138,12 @@ export default function Portfolio() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Frontend Development</h3>
+              <h3 className="text-2xl font-bold mb-4">Content & Product Storytelling</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                I build responsive, performant web applications using modern frameworks and best practices. From interactive prototypes to production-ready code, I bridge the gap between design and development.
+                I help translate complex products and technical ideas into clear marketing narratives. This includes developing brand messaging, visual storytelling assets, and educational content that explains product value to target audiences.
               </p>
               <p className="text-sm text-gray-500">
-                Technologies: HTML, CSS, JavaScript, React, Vue.js, Bootstrap, WordPress, responsive design patterns
+                Product messaging, brand storytelling, visual communication, technical marketing, content development
               </p>
             </div>
 
@@ -157,10 +155,10 @@ export default function Portfolio() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Digital Marketing</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Currently at Cygnus Education Inc., I design and produce digital ad campaigns targeting prospective college students. I create multimedia content across platforms, focusing on audience targeting and brand consistency. Integrating AI tools for content ideation, copy generation, and campaign optimization to accelerate creative workflows.
+                At Cygnus Education Inc., I support digital marketing campaigns targeting prospective college students. I develop multimedia marketing content across social, digital advertising, and web platforms while ensuring brand consistency and audience engagement. I also leverage AI tools for campaign ideation, copy development, and marketing research to accelerate creative workflows.
               </p>
               <p className="text-sm text-gray-500">
-                Experience: Ad campaign design, content strategy, audience targeting, social media, video scripts, brand consistency, AI-assisted marketing research and content development
+                Experience: Ad campaign development, multimedia marketing content, brand consistency, audience engagement, AI-assisted ideation and research
               </p>
             </div>
 
@@ -170,13 +168,49 @@ export default function Portfolio() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Full-Stack Projects</h3>
+              <h3 className="text-2xl font-bold mb-4">Product & Startup Projects</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                I collaborate with engineering partners to build complete web applications, handling everything from UX research and interface design to frontend implementation and user testing. Leveraging AI tools for rapid prototyping, content ideation, and workflow optimization to accelerate development cycles.
+                I collaborate on product-focused projects where I contribute marketing messaging, user-focused communication, and visual storytelling. My work focuses on helping users understand complex digital products through clear interfaces, content, and data visualization.
               </p>
               <p className="text-sm text-gray-500">
-                Skills: Cross-functional collaboration, agile workflows, user research, prototyping, frontend implementation, quality assurance, AI-assisted design and development
+                Skills: Product messaging, user communication, visual storytelling, data visualization, marketing-focused UX, cross-functional collaboration
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Marketing Skills */}
+      <section className="py-24 px-8 bg-stone-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-5xl font-bold mb-4">Marketing Skills</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              A concise view of the marketing capabilities and tools I use to build strategy, content, and visual storytelling.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 border border-stone-200 shadow-sm">
+              <h3 className="text-xl font-semibold mb-4">Core Skills</h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-600">
+                <li>Content Strategy</li>
+                <li>Campaign Development</li>
+                <li>Brand Messaging</li>
+                <li>Social Media Marketing</li>
+                <li>Visual Storytelling</li>
+                <li>B2B Marketing</li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 border border-stone-200 shadow-sm">
+              <h3 className="text-xl font-semibold mb-4">Tools</h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-600">
+                <li>Canva</li>
+                <li>Adobe Creative Suite</li>
+                <li>Figma</li>
+                <li>AI tools for content ideation and marketing research</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -187,7 +221,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-4">My Portfolio</h2>
-            <p className="text-lg text-gray-600">The following projects showcase my technical expertise.</p>
+            <p className="text-lg text-gray-600">The following projects highlight my work in marketing, product storytelling, and digital media.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -207,7 +241,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">ProcessTrace AI</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  AI-powered pharmaceutical investigation platform for GMP deviation analysis. Led marketing and brand development, creating technical content that explains how AI accelerates manufacturing investigations through process ontology and reasoning layers.
+                  AI-powered investigation platform for pharmaceutical manufacturing. I lead marketing and brand development for the project, creating content and visual storytelling that explain how AI can accelerate deviation investigations and operational decision-making in GMP environments.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <img 
@@ -249,7 +283,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">Financial Portfolio Optimization</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  A responsive web app that helps users find the best mix of mutual funds using historical data to estimate returns and risks. Features intuitive data visualizations for portfolio analysis, sentiment analysis of market news, and AI-powered insights to guide investment decisions.
+                  Financial analytics platform designed to help users understand portfolio performance through clear data visualization and AI-powered insights. My focus was on communicating complex financial concepts in a way that is intuitive and engaging for users.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <img 
@@ -312,7 +346,7 @@ export default function Portfolio() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">FridgeBuddy App</h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  Food inventory management app with recipe recommendations and expiration tracking. Resulted in a 25% reduction in food waste for users through smart inventory management.
+                  Consumer-focused food inventory app concept designed to reduce food waste through smart tracking and recipe recommendations. The project focused on communicating product value clearly while designing a simple and engaging user experience.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">Figma</span>
@@ -324,29 +358,6 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* SugarWorks Bakery */}
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl transition-all group">
-              <div className="aspect-video overflow-hidden">
-                <img 
-                  src="/images/sugarworks.png"
-                  alt="SugarWorks Bakery Website"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">SugarWorks Bakery Website</h3>
-                <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                  Custom WordPress website featuring menu, gallery, and contact form. Optimized for SEO resulting in a 30% increase in online traffic for the local bakery.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">WordPress</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Web Design</span>
-                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">Figma</span>
-                  <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs">SEO</span>
-                </div>
-                <p className="text-xs text-gray-500">August 2023 – Present</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
