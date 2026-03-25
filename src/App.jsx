@@ -83,7 +83,7 @@ export default function Portfolio() {
                 I'm <span className="text-teal-600">Kathryn Kilchenstein,</span>
               </h1>
               <h2 className="text-3xl lg:text-5xl font-extrabold mb-6 text-gray-800 max-w-3xl">
-                Content strategist creating social, campaign, and product storytelling that makes complex ideas feel clear.
+                Content Marketing Strategist
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl">
                 I build digital marketing content, campaign messaging, and visual assets for startups and growth-stage teams. My work helps technical and product-heavy brands communicate value quickly across LinkedIn, paid campaigns, and user-facing experiences.
