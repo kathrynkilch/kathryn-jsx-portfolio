@@ -24,6 +24,9 @@ jobs:
       with:
         node-version: '24'
         cache: 'npm'
+
+    - name: Configure GitHub Pages
+      uses: actions/configure-pages@v6
     
     - name: Install dependencies
       # Use --legacy-peer-deps to avoid failing CI on peer dependency conflicts
