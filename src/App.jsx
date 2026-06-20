@@ -177,7 +177,7 @@ export default function Portfolio() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Marketing Campaign Experience</h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                At Cygnus Education, I created social media content and ad creatives for lead-generation campaigns targeting prospective college students. I worked across Instagram, LinkedIn, and Facebook, developing content, testing messaging, and refining campaigns based on performance.
+                At Shimadzu, I developed social media content and ad creatives for multi-channel lead-generation campaigns. I worked across Instagram, LinkedIn, and Facebook to create assets, test messaging, and optimize performance—helping technical audiences connect with product value.
               </p>
               <p className="text-base text-gray-500">
                 Campaign execution, ad creative, social media channels, messaging tests, performance optimization
@@ -310,6 +310,57 @@ export default function Portfolio() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
+            {/* Emilia's Graces Brand & Digital Redesign */}
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl hover:-translate-y-1 transition-all group">
+              <div className="aspect-video overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 flex items-center justify-center cursor-pointer p-6" onClick={() => setSelectedImage('/images/EG Logo.png')}>
+                <div className="w-full h-full overflow-hidden rounded-2xl flex items-center justify-center">
+                  <img src="/images/EG Logo.png" alt="Emilia's Graces Logo" className="max-w-2/3 max-h-full mx-auto object-contain" />
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">Emilia's Graces Brand & Digital Redesign</h3>
+                <p className="text-gray-700 font-medium mb-2 text-base">Client-facing branding and Shopify storefront redesign</p>
+                <p className="text-gray-600 mb-2 text-base">Role: Client Liaison & Content Strategy</p>
+                <p className="text-gray-600 mb-2 text-lg">I collaborated with a multidisciplinary team to run user research, develop customer personas and journeys, refine the brand identity, and redesign the Shopify storefront to improve product discovery and brand consistency.</p>
+                <p className="text-gray-600 mb-4 text-lg">Impact: Improved brand consistency, streamlined product discovery, and created a scalable digital presence for future growth.</p>
+                <div className="grid grid-cols-2 gap-3 mb-4">
+                  <img 
+                    src="/images/EG Calendar.png"
+                    alt="EG Calendar"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/EG Calendar.png')}
+                  />
+                  <img 
+                    src="/images/EG Brand Kit.png"
+                    alt="EG Brand Kit"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/EG Brand Kit.png')}
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-3 mb-4">
+                  <img 
+                    src="/images/ED Checkout.png"
+                    alt="EG Checkout"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/ED Checkout.png')}
+                  />
+                  <img 
+                    src="/images/EG Feed.png"
+                    alt="EG Feed"
+                    className="w-full h-20 object-cover rounded-lg cursor-pointer hover:opacity-80 transition-opacity border border-stone-200"
+                    onClick={() => setSelectedImage('/images/EG Feed.png')}
+                  />
+                </div>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs">Brand Strategy</span>
+                  <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs">E‑commerce</span>
+                  <span className="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs">User Research</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs">Shopify Redesign</span>
+                </div>
+                <p className="text-xs text-gray-500">2025</p>
+              </div>
+            </div>
+
             {/* ProcessTrace AI */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-200 hover:shadow-2xl hover:-translate-y-1 transition-all group">
               <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-50 flex items-center justify-center cursor-pointer p-6" onClick={() => setSelectedImage('/images/ProcessTrace 1.png')}>
@@ -479,6 +530,8 @@ export default function Portfolio() {
                 <p className="text-xs text-gray-500">January 2024 – Present</p>
               </div>
             </div>
+
+            
 
           </div>
         </div>
