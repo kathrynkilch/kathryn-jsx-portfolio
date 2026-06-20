@@ -26,7 +26,9 @@ jobs:
         cache: 'npm'
     
     - name: Install dependencies
-      run: npm ci
+      # Use --legacy-peer-deps to avoid failing CI on peer dependency conflicts
+      # (safe for build in CI when upgrading packages is not desired immediately)
+      run: npm ci --legacy-peer-deps
     
     - name: Build
       run: npm run build
